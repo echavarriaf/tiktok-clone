@@ -12,10 +12,10 @@ export default function ProfileControl({ profileUrl }: ProfileControlPropsT) {
   return (
     <Link href={profileUrl}>
       <Image
-        className="rounded-full outline outline-2 outline-white"
+        className="rounded-full outline outline-1 outline-white p-1 hover:outline-4"
         src={session?.user?.image}
-        width={40}
-        height={40}
+        width={60}
+        height={60}
         alt="profile user image"
       onClick={()=>signOut()}/>
     </Link>

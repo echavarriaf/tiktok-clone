@@ -8,7 +8,6 @@ export function Controls() {
       <li></li>
       <li></li>
       <li></li>
-      <li>{<ProfileControl profileUrl={"/"} />}</li>
     </ul>
   );
 }
